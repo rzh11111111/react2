@@ -3,6 +3,7 @@ import { FruitList } from "../components/FruitList";
 import { FruitAdd } from "../components/FruitAdd";
 
 export function HookPage(props) {
+                                      //初始值
   const [fruit, setFruit] = useState(["apple", "banana"]);
   return (
     <div>
